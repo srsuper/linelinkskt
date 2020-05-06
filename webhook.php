@@ -15,10 +15,10 @@
   $text = $jsonData["events"][0]["message"]["text"];
   $timestamp = $jsonData["events"][0]["timestamp"];
 
-  $servername = "sql105.epizy.com";
-  $username = "epiz_25335739";
-  $password = "PXvX2IYVCtW";
-  $dbname = "epiz_25335739_line";
+  $servername = "localhost";
+  $username = "root";
+  $password = "";
+  $dbname = "Line";
   $mysql = new mysqli($servername, $username, $password, $dbname);
   mysqli_set_charset($mysql, "utf8");
 
