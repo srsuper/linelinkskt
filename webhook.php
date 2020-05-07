@@ -15,7 +15,7 @@
   $text = $jsonData["events"][0]["message"]["text"];
   $timestamp = $jsonData["events"][0]["timestamp"];
 
-  $servername = "localhost";
+  $servername = "https://7da7f0cc.ngrok.io";
   $username = "root";
   $password = "";
   $dbname = "Line";
