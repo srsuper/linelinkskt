@@ -15,7 +15,7 @@
   $text = $jsonData["events"][0]["message"]["text"];
   $timestamp = $jsonData["events"][0]["timestamp"];
 
-  $servername = "223.207.235.89";
+  $servername = "125.25.250.48";
   $username = "root";
   $password = "";
   $dbname = "Line";
