@@ -19,8 +19,8 @@
   $username = "root";
   $password = "";
   $dbname = "Line";
-  $mysql = new mysqli($servername, $username, $password, $dbname);
-  mysqli_set_charset($mysql, "utf8");
+  $mysql = new mysql($servername, $username, $password, $dbname);
+  mysql_set_charset($mysql, "utf8");
 
   if ($mysql->connect_error){
   $errorcode = $mysql->connect_error;
