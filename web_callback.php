@@ -8,7 +8,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // กรณีมีการเชื่อมต่อกับฐานข้อมูล
-require_once("dbconnect.php");
+//require_once("dbconnect.php");
 
 
 if(!isset($_SESSION['my_service_state_key']) || $_GET['state'] !== $_SESSION['my_service_state_key']){
