@@ -36,8 +36,8 @@ if(!isset($_GET['error']) && isset($_GET['code']) && $_GET['code'] != ""){
         'grant_type' => 'authorization_code', // ไม่แก้ไขส่วนนี้
         'code' => (string)$code,
         'redirect_uri' => 'https://www.mywebsite.com/web_callback.php',
-        'client_id' => 'XZD9SAx34mjqkVUivwRsYc',
-        'client_secret' => 'lt1JLKpNfJw4pfMkCiSjxoTCw3MeI89NOOjxPPZW8uK'                 
+        'client_id' => '1654152976',
+        'client_secret' => '539edc4e8dad5331781be75742242d0e'                 
     );
 
     $ch = curl_init();
