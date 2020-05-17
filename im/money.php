@@ -1,7 +1,7 @@
 <?php
-$access_token ='放你的Access Token';
+$access_token ='KLF0sEroZJQuNMJfDClKP33FTPjpMEc2qcbl2sXqtcjrJ8DOug3QRwxTtiOQAFNxsLmTRp7ZWbUjkgw9umOBKcpjjzCu/REJCERZbvGoAfXYSoVnameTpM/GfbST5kH/kADOr/treSOq7DFZhQsyZAdB04t89/1O/w1cDnyilFU=;
 //define('TOKEN', '你的Channel Access Token');
-$your_domain = '';
+$your_domain = 'http://linelinkskt.herokuapp.com/im/money.php';
 //需要含http(s)://以及網址最後不可有斜線。
 
 $json_string = file_get_contents('php://input');
